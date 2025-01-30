@@ -1,0 +1,252 @@
+[
+    {
+        "instance_id": 0,
+        "avg_transaction_time": 9.727956431252617,
+        "total_contract_execution_time": 68.09603476524353
+    },
+    {
+        "instance_id": 1,
+        "avg_transaction_time": 10.417234182357788,
+        "total_contract_execution_time": 72.92091846466064
+    },
+    {
+        "instance_id": 2,
+        "avg_transaction_time": 9.495690516063146,
+        "total_contract_execution_time": 66.4703094959259
+    },
+    {
+        "instance_id": 3,
+        "avg_transaction_time": 10.416119405201503,
+        "total_contract_execution_time": 72.91307258605957
+    },
+    {
+        "instance_id": 4,
+        "avg_transaction_time": 9.690512759344918,
+        "total_contract_execution_time": 67.8354115486145
+    },
+    {
+        "instance_id": 5,
+        "avg_transaction_time": 10.090675933020455,
+        "total_contract_execution_time": 70.63486218452454
+    },
+    {
+        "instance_id": 6,
+        "avg_transaction_time": 9.742703369685582,
+        "total_contract_execution_time": 68.20029282569885
+    },
+    {
+        "instance_id": 7,
+        "avg_transaction_time": 10.059154340199061,
+        "total_contract_execution_time": 70.41430258750916
+    },
+    {
+        "instance_id": 8,
+        "avg_transaction_time": 10.040422405515399,
+        "total_contract_execution_time": 70.29208779335022
+    },
+    {
+        "instance_id": 9,
+        "avg_transaction_time": 9.542001588003975,
+        "total_contract_execution_time": 66.79421305656433
+    },
+    {
+        "instance_id": 10,
+        "avg_transaction_time": 8.6995301927839,
+        "total_contract_execution_time": 60.89715814590454
+    },
+    {
+        "instance_id": 11,
+        "avg_transaction_time": 9.245933123997279,
+        "total_contract_execution_time": 64.72181963920593
+    },
+    {
+        "instance_id": 12,
+        "avg_transaction_time": 9.491030386516027,
+        "total_contract_execution_time": 66.43747639656067
+    },
+    {
+        "instance_id": 13,
+        "avg_transaction_time": 10.05196908542088,
+        "total_contract_execution_time": 70.36398005485535
+    },
+    {
+        "instance_id": 14,
+        "avg_transaction_time": 9.756350108555385,
+        "total_contract_execution_time": 68.29471397399902
+    },
+    {
+        "instance_id": 15,
+        "avg_transaction_time": 10.410009384155273,
+        "total_contract_execution_time": 72.87017917633057
+    },
+    {
+        "instance_id": 16,
+        "avg_transaction_time": 9.101009743554252,
+        "total_contract_execution_time": 63.70735788345337
+    },
+    {
+        "instance_id": 17,
+        "avg_transaction_time": 10.070196219852992,
+        "total_contract_execution_time": 70.49181389808655
+    },
+    {
+        "instance_id": 18,
+        "avg_transaction_time": 9.02459124156407,
+        "total_contract_execution_time": 63.17252850532532
+    },
+    {
+        "instance_id": 19,
+        "avg_transaction_time": 10.416391713278633,
+        "total_contract_execution_time": 72.91525983810425
+    },
+    {
+        "instance_id": 20,
+        "avg_transaction_time": 9.500966378620692,
+        "total_contract_execution_time": 66.50686717033386
+    },
+    {
+        "instance_id": 21,
+        "avg_transaction_time": 9.512616838727679,
+        "total_contract_execution_time": 66.59158635139465
+    },
+    {
+        "instance_id": 22,
+        "avg_transaction_time": 9.758029324667794,
+        "total_contract_execution_time": 68.30630898475647
+    },
+    {
+        "instance_id": 23,
+        "avg_transaction_time": 10.073157787322998,
+        "total_contract_execution_time": 70.51246976852417
+    },
+    {
+        "instance_id": 24,
+        "avg_transaction_time": 10.08293730872018,
+        "total_contract_execution_time": 70.58068418502808
+    },
+    {
+        "instance_id": 25,
+        "avg_transaction_time": 8.7499018737248,
+        "total_contract_execution_time": 61.24944496154785
+    },
+    {
+        "instance_id": 26,
+        "avg_transaction_time": 10.058305263519287,
+        "total_contract_execution_time": 70.4085156917572
+    },
+    {
+        "instance_id": 27,
+        "avg_transaction_time": 9.48227310180664,
+        "total_contract_execution_time": 66.37641191482544
+    },
+    {
+        "instance_id": 28,
+        "avg_transaction_time": 9.475456953048706,
+        "total_contract_execution_time": 66.32830095291138
+    },
+    {
+        "instance_id": 29,
+        "avg_transaction_time": 10.417842933109828,
+        "total_contract_execution_time": 72.92505431175232
+    },
+    {
+        "instance_id": 30,
+        "avg_transaction_time": 10.074200357709612,
+        "total_contract_execution_time": 70.51970362663269
+    },
+    {
+        "instance_id": 31,
+        "avg_transaction_time": 9.730230058942523,
+        "total_contract_execution_time": 68.11192083358765
+    },
+    {
+        "instance_id": 32,
+        "avg_transaction_time": 10.065124375479561,
+        "total_contract_execution_time": 70.45628452301025
+    },
+    {
+        "instance_id": 33,
+        "avg_transaction_time": 9.754356895174299,
+        "total_contract_execution_time": 68.28070569038391
+    },
+    {
+        "instance_id": 34,
+        "avg_transaction_time": 9.762676920209612,
+        "total_contract_execution_time": 68.3389539718628
+    },
+    {
+        "instance_id": 35,
+        "avg_transaction_time": 10.419186966759819,
+        "total_contract_execution_time": 72.93461894989014
+    },
+    {
+        "instance_id": 36,
+        "avg_transaction_time": 9.352965184620448,
+        "total_contract_execution_time": 65.47100710868835
+    },
+    {
+        "instance_id": 37,
+        "avg_transaction_time": 10.049140044621058,
+        "total_contract_execution_time": 70.34767699241638
+    },
+    {
+        "instance_id": 38,
+        "avg_transaction_time": 9.685500519616264,
+        "total_contract_execution_time": 67.79872369766235
+    },
+    {
+        "instance_id": 39,
+        "avg_transaction_time": 9.501639638628278,
+        "total_contract_execution_time": 66.51175999641418
+    },
+    {
+        "instance_id": 40,
+        "avg_transaction_time": 9.762813670294625,
+        "total_contract_execution_time": 68.33993792533875
+    },
+    {
+        "instance_id": 41,
+        "avg_transaction_time": 9.431131396974836,
+        "total_contract_execution_time": 66.01807284355164
+    },
+    {
+        "instance_id": 42,
+        "avg_transaction_time": 10.41127164023263,
+        "total_contract_execution_time": 72.89324760437012
+    },
+    {
+        "instance_id": 43,
+        "avg_transaction_time": 10.040485177721296,
+        "total_contract_execution_time": 70.28350973129272
+    },
+    {
+        "instance_id": 44,
+        "avg_transaction_time": 9.72151528085981,
+        "total_contract_execution_time": 68.05089783668518
+    },
+    {
+        "instance_id": 45,
+        "avg_transaction_time": 8.880015986306327,
+        "total_contract_execution_time": 62.16062140464783
+    },
+    {
+        "instance_id": 46,
+        "avg_transaction_time": 9.402267592293876,
+        "total_contract_execution_time": 65.81928181648254
+    },
+    {
+        "instance_id": 47,
+        "avg_transaction_time": 10.053954941885811,
+        "total_contract_execution_time": 70.37817215919495
+    },
+    {
+        "instance_id": 48,
+        "avg_transaction_time": 10.033180441175189,
+        "total_contract_execution_time": 70.23246765136719
+    },
+    {
+        "instance_id": 49,
+        "avg_transaction_time": 9.731930324009486,
+        "total_contract_execution_time": 68.12372422218323
+    }
+]

@@ -1,0 +1,202 @@
+[
+    {
+        "instance_id": 0,
+        "avg_transaction_time": 4643.714285714285
+    },
+    {
+        "instance_id": 1,
+        "avg_transaction_time": 4949.142857142857
+    },
+    {
+        "instance_id": 2,
+        "avg_transaction_time": 4843.142857142857
+    },
+    {
+        "instance_id": 3,
+        "avg_transaction_time": 4834.428571428572
+    },
+    {
+        "instance_id": 4,
+        "avg_transaction_time": 4970.0
+    },
+    {
+        "instance_id": 5,
+        "avg_transaction_time": 4719.571428571428
+    },
+    {
+        "instance_id": 6,
+        "avg_transaction_time": 5288.571428571428
+    },
+    {
+        "instance_id": 7,
+        "avg_transaction_time": 5200.857142857143
+    },
+    {
+        "instance_id": 8,
+        "avg_transaction_time": 4987.428571428572
+    },
+    {
+        "instance_id": 9,
+        "avg_transaction_time": 5147.0
+    },
+    {
+        "instance_id": 10,
+        "avg_transaction_time": 4984.142857142857
+    },
+    {
+        "instance_id": 11,
+        "avg_transaction_time": 4940.857142857143
+    },
+    {
+        "instance_id": 12,
+        "avg_transaction_time": 5208.0
+    },
+    {
+        "instance_id": 13,
+        "avg_transaction_time": 5096.142857142857
+    },
+    {
+        "instance_id": 14,
+        "avg_transaction_time": 5214.714285714285
+    },
+    {
+        "instance_id": 15,
+        "avg_transaction_time": 5192.428571428572
+    },
+    {
+        "instance_id": 16,
+        "avg_transaction_time": 5116.285714285715
+    },
+    {
+        "instance_id": 17,
+        "avg_transaction_time": 5604.428571428572
+    },
+    {
+        "instance_id": 18,
+        "avg_transaction_time": 5420.857142857143
+    },
+    {
+        "instance_id": 19,
+        "avg_transaction_time": 5594.285714285715
+    },
+    {
+        "instance_id": 20,
+        "avg_transaction_time": 5344.428571428572
+    },
+    {
+        "instance_id": 21,
+        "avg_transaction_time": 5229.428571428572
+    },
+    {
+        "instance_id": 22,
+        "avg_transaction_time": 5091.857142857143
+    },
+    {
+        "instance_id": 23,
+        "avg_transaction_time": 5502.714285714285
+    },
+    {
+        "instance_id": 24,
+        "avg_transaction_time": 5325.714285714285
+    },
+    {
+        "instance_id": 25,
+        "avg_transaction_time": 5418.0
+    },
+    {
+        "instance_id": 26,
+        "avg_transaction_time": 5288.142857142857
+    },
+    {
+        "instance_id": 27,
+        "avg_transaction_time": 5164.714285714285
+    },
+    {
+        "instance_id": 28,
+        "avg_transaction_time": 5431.428571428572
+    },
+    {
+        "instance_id": 29,
+        "avg_transaction_time": 5319.0
+    },
+    {
+        "instance_id": 30,
+        "avg_transaction_time": 5124.0
+    },
+    {
+        "instance_id": 31,
+        "avg_transaction_time": 5389.285714285715
+    },
+    {
+        "instance_id": 32,
+        "avg_transaction_time": 5645.714285714285
+    },
+    {
+        "instance_id": 33,
+        "avg_transaction_time": 5475.428571428572
+    },
+    {
+        "instance_id": 34,
+        "avg_transaction_time": 5303.714285714285
+    },
+    {
+        "instance_id": 35,
+        "avg_transaction_time": 5147.857142857143
+    },
+    {
+        "instance_id": 36,
+        "avg_transaction_time": 5458.571428571428
+    },
+    {
+        "instance_id": 37,
+        "avg_transaction_time": 5232.142857142857
+    },
+    {
+        "instance_id": 38,
+        "avg_transaction_time": 5121.714285714285
+    },
+    {
+        "instance_id": 39,
+        "avg_transaction_time": 5106.714285714285
+    },
+    {
+        "instance_id": 40,
+        "avg_transaction_time": 4932.0
+    },
+    {
+        "instance_id": 41,
+        "avg_transaction_time": 5213.428571428572
+    },
+    {
+        "instance_id": 42,
+        "avg_transaction_time": 5018.285714285715
+    },
+    {
+        "instance_id": 43,
+        "avg_transaction_time": 5220.857142857143
+    },
+    {
+        "instance_id": 44,
+        "avg_transaction_time": 5158.285714285715
+    },
+    {
+        "instance_id": 45,
+        "avg_transaction_time": 5059.428571428572
+    },
+    {
+        "instance_id": 46,
+        "avg_transaction_time": 4925.857142857143
+    },
+    {
+        "instance_id": 47,
+        "avg_transaction_time": 5194.571428571428
+    },
+    {
+        "instance_id": 48,
+        "avg_transaction_time": 4956.142857142857
+    },
+    {
+        "instance_id": 49,
+        "avg_transaction_time": 4929.571428571428
+    }
+]

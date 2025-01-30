@@ -1,0 +1,12 @@
+[
+    {
+        "instance_id": 0,
+        "avg_transaction_time": 5.569783551352365,
+        "total_contract_execution_time": 38.988688707351685
+    },
+    {
+        "instance_id": 1,
+        "avg_transaction_time": 5.575526884623936,
+        "total_contract_execution_time": 39.02885341644287
+    }
+]

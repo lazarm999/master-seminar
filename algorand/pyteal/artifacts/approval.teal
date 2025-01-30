@@ -1,0 +1,34 @@
+#pragma version 6
+txn ApplicationID
+int 0
+==
+bnz main_l4
+txn OnCompletion
+int NoOp
+==
+bnz main_l3
+err
+main_l3:
+byte "token_state"
+app_global_get
+store 0
+byte "token_state"
+load 0
+int 1
++
+app_global_put
+byte "token_state"
+app_global_get
+itob
+log
+int 1
+return
+main_l4:
+byte "token_state"
+int 1
+app_global_put
+byte "participants"
+txna ApplicationArgs 0
+app_global_put
+int 1
+return
