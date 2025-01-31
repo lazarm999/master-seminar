@@ -1,0 +1,144 @@
+// Try: Make a function we can jump to
+// that does the recuring consume produce logic
+#pragma version 10
+#define TOKEN_STATE byte "s"
+{{#participants}}
+#define PAR_{{id}} addr [ADDR_PAR_{{id}}]
+{{/participants}}
+
+#define RANGE int 8
+
+#define OFFSET txna ApplicationArgs 2; btoi; RANGE; *; 
+#define EXTRACT OFFSET; RANGE; box_extract; btoi; // extracts S[OFFSET;BYTES]
+
+txn ApplicationID
+int 0 
+==
+bnz return
+
+// Check for NoOp
+// -------------------
+txn OnCompletion
+int NoOp
+==
+assert
+
+TOKEN_STATE
+box_get
+bz create
+
+main:
+// Get token state
+TOKEN_STATE // save key
+TOKEN_STATE // load key "s", "s" 
+EXTRACT // "s", int
+
+{{#manualTransitions}}
+
+// TASK {{id}}
+// --------------------
+txna ApplicationArgs 0
+btoi
+int {{id}}
+==
+bnz task_{{id}}
+{{/manualTransitions}}
+
+err // fall through
+
+{{#manualTransitions}}
+// ----------------------------------------------------------
+task_{{id}}:
+// Check task is enabled
+dup // duplicate current token state on stack
+int {{consume}}
+&
+int {{consume}}
+==
+{{#condition}}
+// Check conditions
+txna ApplicationArgs 1
+btoi
+int {{condition}}
+&
+int {{condition}}
+==
+&&
+{{/condition}}
+// Check participant is allowed
+txn Sender 
+PAR_{{initiator}}
+==
+
+&& // Check previous
+assert // return if zero
+
+// consume and produce
+int {{consume}}
+~
+&
+int {{produce}} 
+|
+b auto_loop
+{{/manualTransitions}}
+
+// Automatic transitions (need to be looped as more than one could fire)
+auto_loop:
+{{#autonomousTransitions}}
+// --------------------
+// Transition
+dup
+int {{consume}}
+&
+int {{consume}}
+==
+{{#condition}}
+// Check conditions
+txna ApplicationArgs 1
+btoi
+int {{condition}}
+&
+int {{condition}}
+==
+&&
+{{/condition}}
+
+bnz auto_{{consume}}
+
+{{/autonomousTransitions}}
+// no autonomous transitions to be fired
+
+// switch stack positions for replace 3
+store 0
+OFFSET
+load 0
+// "s", byte, Offset, int
+itob // "s", byte (A), int (B), byte (C)
+box_replace // "s", byte
+int 1
+return
+
+{{#autonomousTransitions}}
+auto_{{consume}}:
+// consume and produce
+int {{consume}}
+~
+&
+int {{produce}} 
+|
+b auto_loop
+{{/autonomousTransitions}}
+
+create: // "s"
+TOKEN_STATE
+int 128
+box_create
+TOKEN_STATE
+int 0
+byte "\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x01"
+box_replace // "s", byte
+b main
+
+return:
+int 1
+return
