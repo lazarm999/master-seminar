@@ -27,13 +27,6 @@ def approval_program():
             Btoi(Txn.application_args[0]),
             Int(0)          
         )
-        
-    def get_timestamp():
-        return If(
-            Txn.application_args.length() > Int(1),
-            Btoi(Txn.application_args[1]),
-            Int(0)          
-        )
     
     def is_order_in_progress():
         return Or(
@@ -241,7 +234,7 @@ def approval_program():
         Seq([Log(Bytes("Uslovi nisu ispunjeni"))])
     )
 
-    # action code 100 = set_resolve_timestamp
+    # action code 100 = set_resolve_timestamp action
     set_resolve_timestamp = If(
         And(
             get_action_code() == Int(100),
@@ -252,12 +245,14 @@ def approval_program():
             App.globalGet(Bytes("resolve_timestamp")) == Int(0)
         ),
         Seq([
-            App.globalPut(Bytes("resolve_timestamp"), get_timestamp()),
+            # 2592000 seconds = 30 days
+            App.globalPut(Bytes("resolve_timestamp"), Global.latest_timestamp() + Int(2592000)),
             Log(Bytes("resolve_timestamp set"))
         ]),
         Seq([])
     )
     
+    # action code 101 = set_amounts action
     set_amounts = If(
         And(
             get_action_code() == Int(101),

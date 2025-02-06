@@ -1,0 +1,1 @@
+I created ProcessExecutionTemplate to generate smart contracts in Teal using Chorpiler. However, due to some issues I encountered with Chorpiler, the template was not used. In this folder you can also find bpmn and sol file. Sol file is generated from bpmn file using Chorpiler. Bugs that I noticed are described in the paper.

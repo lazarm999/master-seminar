@@ -357,7 +357,7 @@ def run_correct_test_order_medication_contract(accounts, app_id, cond, app_addre
                 payment_transaction(accounts[2], app_address, to_distributor_amount + to_manufacturer_amount)
                 payment_transaction(accounts[3], app_address, to_distributor_amount)
             if i == 2:
-                execute_transaction(app_id, accounts[2], args=[100, 1234], accounts=extract_addresses(accounts, [2,3,4]), include_print=include_print)
+                execute_transaction(app_id, accounts[2], args=[100], accounts=extract_addresses(accounts, [2,3,4]), include_print=include_print)
                 execute_transaction(app_id, accounts[4], args=[200], accounts=extract_addresses(accounts, [2,3,4]), include_print=include_print)
             sum += elapsed_time
             numTxn += 1
